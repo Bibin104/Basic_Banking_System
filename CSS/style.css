@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(206, 234, 245, 0.829);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.services {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.s-heading {
+    text-align: center;
+    height: 20vh;
+    padding: 50px;
+}
+
+.s-heading h1 {
+    color: rgb(43, 43, 43);
+    font-size: 38px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.s-heading p {
+    color: rgba(red, green, blue, alpha);
+    font-size: 1.5rem;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.s-box-container {
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px !important;
+    padding-top: 80px;
+}
+
+.s-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px 25px;
+    height: 350px;
+    box-sizing: border-box;
+    margin: 30px;
+    position: relative;
+}
+
+.s-box img {
+    height: 370px;
+    width: 370px;
+    border: 5px solid #81a6cf;
+    box-shadow: 0px 0px 15px;
+    z-index: -1;
+}
+
+.s-box h1 {
+    color: rgb(43, 43, 43);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.s-box p {
+    color: rgb(43, 43, 43);
+    text-align: center;
+}
+
+.s-btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dce9f1;
+    margin-top: 10px;
+}
+
+.bar {
+    width: 100px;
+    height: 6px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    background-color: #040254;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+    animation: bar 0.5s;
+}
+
+.s-box:hover {
+    box-shadow: 2px 2px 30px rgb(34, 0, 126);
+    transition: all ease 0.3s;
+}
+
+.s-box:hover .bar {
+    display: block;
+}
+
+@keyframes bar {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100px;
+    }
+}
+
+@media(max-width:1050px) {
+    .s-box-container {
+        flex-wrap: wrap;
+    }
+    .services {
+        height: auto;
+    }
+    .s-heading {
+        margin: 15px;
+    }
+    .s-box {
+        flex-grow: 1;
+    }
+}
