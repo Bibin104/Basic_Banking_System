@@ -118,7 +118,7 @@
                 <footer id="foot"> 
                                     <div class="footer-content">
                                         <h3>The Sparks Foundation</h3>
-                                        <p>Inspiring, Innovating, Integrating...</p>
+                                        <p>... inspiring, innovating, integrating</p>
                                         <ul class="socials">
                                             <li><a href="https://www.facebook.com/thesparksfoundation.info"><i class="fa fa-facebook"></i></a></li>
                                             <li><a href="https://twitter.com/tsfsingapore?lang=en"><i class="fa fa-twitter"></i></a></li>

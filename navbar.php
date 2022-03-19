@@ -9,7 +9,7 @@
          </label>
        
         <ul>
-             <li><a href="Index.php">Home</a></li>
+             <li><a href="index.php">Home</a></li>
             <li><a href="Users.php">Transfer Money</a></li>
             <li><a href="Transaction History.php">Transaction History</a></li>
 
