@@ -1,7 +1,7 @@
 **Basic Banking System**
 
 👉 ABSTRACT:
- A Basic Banking Sytem where you can carry out banking operations like viewing customers , transfering money viewing transaction history
+ A Basic Banking Sytem where you can carry out banking operations like viewing customers , transfering money viewing transaction history.
 
 👉SOFTWARE REQUIREMENTS:
 
@@ -24,4 +24,4 @@
 
   </ul>
   
-  👉 Website: 
+  👉 Website: https://bibinb.000webhostapp.com/
